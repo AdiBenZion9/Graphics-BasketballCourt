@@ -1,8 +1,8 @@
 # Computer Graphics - Exercise 5 - Interactive Basketball Court with WebGL
 
 ## Group Members
-- *Adi Ben Zion*
-- *Noa Benborhoum*
+- *Adi Ben Zion 322631201*
+- *Noa Benborhoum 322529447*
 
 ## How to Run the Implementation
 
