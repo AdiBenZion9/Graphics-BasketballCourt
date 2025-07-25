@@ -83,4 +83,31 @@
 
 ### ✨ **Professional UI Framework**
 - Scoreboard container at the top  
-- Control instructions 
+- Control instructions
+
+### ✨ **Multiple Hoops**
+- Ability to shoot at both hoops on the court
+
+- Automatic hoop targeting based on ball position and orientation
+
+### ✨ **Swish Detection**
+- Bonus points awarded for clean shots that don't touch the rim
+
+- Visual and scoring feedback for swish shots
+
+### ✨ **Combo System**
+- Bonus scoring for consecutive successful shots
+
+- Streak counter with escalating reward multiplier
+
+### ✨ **Ball Trail Effect**
+- Visual trail follows the basketball during flight
+
+- Enhances shot tracking and aesthetic feedback
+
+### ✨ **Leaderboard**
+High score tracking using local storage
+
+Displays top scores across multiple sessions
+
+Encourages replayability and competition
