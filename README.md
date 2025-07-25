@@ -1,48 +1,86 @@
-# Computer Graphics - Exercise 5 - Interactive Basketball Court with WebGL
+# Computer Graphics - Exercise 6 - Interactive Basketball Shooting Game with Physics
 
 ## Group Members
-- *Adi Ben Zion 322631201*
+- *Adi Ben Zion 322631201*  
 - *Noa Benborhoum 322529447*
 
 ## How to Run the Implementation
 
-1. *Clone or download this repository* to your local machine
-2. *Make sure you have Node.js installed* on your system
-3. *Navigate to the project directory* in your terminal
-4. *Start the server* by running:
+1. *Clone or download this repository* to your local machine  
+2. *Make sure you have Node.js installed* on your system  
+3. *Navigate to the project directory* in your terminal  
+4. *Start the server* by running:  
+   ```bash
    node index.js
-   
-5. *Open your web browser* and go to: http://localhost:8000
-6. *Use the controls* to interact with the basketball court:
-   - *O Key*: Toggle orbit camera controls
-   - *C Key*: Switch between camera presets
+5. Open your web browser and go to: [http://localhost:8000](http://localhost:8000)  
 
-## Additional Features Implemented
+### **Controls**
+- **Arrow Keys**: Move basketball (left/right/forward/backward)  
+- **W/S Keys**: Increase or decrease shot power  
+- **Spacebar**: Shoot basketball  
+- **R Key**: Reset basketball to center court  
+- **O Key**: Toggle orbit camera controls  
+- **C Key**: Cycle through camera preset positions  
 
-### ✨ Enhanced Stadium Environment
-- *Individual stadium seating* with blue seats and white platforms
-- *5 rows of bleachers* on both sides of the court with proper stadium-style seating
-- *Professional scoreboard* suspended above center court
+---
 
-### ✨ Enhanced Lighting System
-- *Multiple light sources* including directional light and spotlight
-- *Professional stadium lighting* with proper shadows
+## **New Features Implemented**
 
-### ✨ Multiple Camera Preset Positions
-- *4 different camera angles*:
-  1. Overview (aerial view of entire court)
-  2. Court Level (ball perspective)
-  3. Behind Hoop 2 (left side hoop view)
-  4. Top View (top view of court)
-- *'C' key cycling* through all camera positions
+### 🏀 **Physics-Based Basketball Mechanics**
+- Realistic gravity affecting basketball trajectory  
+- Proper arc motion for shooting  
+- Bouncing physics with energy loss  
+- Ground and hoop collision detection  
 
-### ✨ Enhanced Court Features
-- *Properly scaled court* (2:1) with proportional markings
-- *Accurate three-point lines* with correct curvature
-- *Professional court boundaries* and center circle
-- *Realistic basketball* with proper orange color and black seam lines
-- *Detailed basketball nets* with natural hanging curves and multiple connection points
+### 🎮 **Interactive Controls**
+- Arrow keys for moving the basketball around the court  
+- W/S keys to adjust shot power (0%–100%) with UI indicator  
+- Spacebar to shoot toward the hoop based on direction and power  
+- R key to reset basketball position and state  
 
-### ✨ Professional UI Framework
-- *Score display* container positioned at top center
-- *Controls instruction panel* showing future HW06 features
+### 🔄 **Realistic Ball Rotation**
+- Smooth ball spin during movement and flight  
+- Rotation axis aligns with ball direction  
+- Speed of spin scales with ball velocity  
+
+### 🧮 **Comprehensive Scoring System**
+- Score detection when ball passes through hoop with downward motion  
+- 2 points awarded for each successful shot  
+- Real-time shot tracking: attempts, made shots, and accuracy %  
+- Visual feedback for success or miss  
+
+### 🖥️ **Enhanced User Interface**
+- Live score and shot statistics display  
+- Shot power indicator bar  
+- Control instructions panel  
+- Status messages for shot outcome  
+
+---
+
+## **Bonus Features**
+
+### ✨ **Enhanced Stadium Environment**
+- Individual blue stadium seats and white platforms  
+- 5 rows of bleachers on both sides of the court  
+- Center-hung professional scoreboard  
+
+### ✨ **Enhanced Lighting System**
+- Directional and spotlight stadium lights  
+- Realistic shadow casting for immersive visuals  
+
+### ✨ **Multiple Camera Presets**
+- 4 camera angles:  
+  - Overview (aerial)  
+  - Court-Level (ball perspective)  
+  - Behind Hoop 2  
+  - Top-Down View  
+- 'C' key to switch between views  
+
+### ✨ **Realistic Court Details**
+- Accurately scaled court (2:1) with full markings  
+- Proper three-point arc and center circle  
+- Realistic basketball appearance and detailed net  
+
+### ✨ **Professional UI Framework**
+- Scoreboard container at the top  
+- Control instructions 
