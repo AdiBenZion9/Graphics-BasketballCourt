@@ -57,7 +57,9 @@
 
 ---
 
-## **Bonus Features**
+## **Bonus Features** 
+
+## **Note: Swish detection feature was implemented before implemeting the ball trail effect feature, so the screenshot of the swish is not containing a trail but you can see it in other screenshots!! thanks!**
 
 ### ✨ **Enhanced Stadium Environment**
 - Individual blue stadium seats and white platforms  
