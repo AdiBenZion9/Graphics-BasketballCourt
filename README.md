@@ -23,6 +23,7 @@
 - **C Key**: Cycle through camera preset positions  
 
 ---
+## **Note: to watch the videos attached click on 'view raw' option to download it to your computer
 
 ## **New Features Implemented**
 
